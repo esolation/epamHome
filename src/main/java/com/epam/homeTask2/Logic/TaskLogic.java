@@ -4,5 +4,5 @@ import java.util.List;
 import java.util.Map;
 
 public interface TaskLogic {
-    void doTaskLogic();
+    List<String> doTaskLogic();
 }

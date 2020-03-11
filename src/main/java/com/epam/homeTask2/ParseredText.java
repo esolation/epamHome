@@ -1,5 +1,6 @@
 package com.epam.homeTask2;
 
+import com.epam.homeTask2.Parser.Parser;
 import com.epam.homeTask2.Parser.ParserService;
 
 import java.util.ArrayList;
@@ -8,9 +9,9 @@ import java.util.List;
 import java.util.Map;
 
 public class ParseredText {
-    private ParserService parserService = new ParserService();
+    private Parser parserService = new ParserService();
     private List<String> sentences = new ArrayList<>();
-    private Map<String, List<String>> words = new HashMap<>();
+    private Map<String, List<String>> words = new HashMap<>(); // key - sentence, value - all words in this sentence
 
     public ParseredText(){}
     public ParseredText(String text){
@@ -38,5 +39,11 @@ public class ParseredText {
        for (String sentence : sentences) {
            words.put(sentence, parserService.getAllWordsFromSentences(sentence));
        }
+   }
+
+   public StringBuilder recoverAllText() {
+       StringBuilder text = new StringBuilder();
+       sentences.forEach(x-> text.append(x).append(". "));
+       return text;
    }
 }

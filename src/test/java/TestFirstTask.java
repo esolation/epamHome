@@ -7,7 +7,6 @@ import com.epam.homeTask1.Methods.Methods;
 import com.epam.homeTask1.Methods.MethodsImpl;
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 import org.junit.*;
 import org.junit.BeforeClass;
 
@@ -21,9 +20,9 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 
 
-public class TestApplication {
+public class TestFirstTask {
 
-    private static final Logger log = Logger.getLogger(TestApplication.class);
+    private static final Logger log = Logger.getLogger(TestFirstTask.class);
 
     private static Biker biker = new Biker();
     private Methods methods = new MethodsImpl();
@@ -48,7 +47,7 @@ public class TestApplication {
     }
 
     @Test
-    public void testAddition(){
+    public void testAddition()throws Exception{
         List<Equipment> expected = new ArrayList<>(List.of(
                 new Chest("Dragon Chest", 34.2, 5.11),
                 new Feet("Dragon Feet", 20.5, 3.15),
@@ -59,7 +58,7 @@ public class TestApplication {
     }
 
     @Test
-    public void testSort(){
+    public void testSort()throws Exception{
         List<Equipment> expected = new ArrayList<>(List.of(
                 new Chest("Dragon Chest", 34.2, 5.11),
                 new Feet("Dragon Feet", 20.5, 3.15),
@@ -75,7 +74,7 @@ public class TestApplication {
     }
 
     @Test
-    public void testFindByCriteria(){
+    public void testFindByCriteria()throws Exception{
         List<Equipment> list1 = new ArrayList<>(List.of(
                 new Chest("Dragon Chest", 34.2, 5.11),
                 new Feet("Dragon Feet", 20.5, 3.15),
