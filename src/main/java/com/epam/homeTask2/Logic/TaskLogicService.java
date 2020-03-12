@@ -8,10 +8,9 @@ public class TaskLogicService implements TaskLogic {
     public TaskLogicService(String text) {
         parseredText.parseText(text);
     }
-
     /*
     Take all sentences.
-    Sort and display.
+    Sort and return sorted collection.
     Recover full text.
      */
     @Override
@@ -19,6 +18,5 @@ public class TaskLogicService implements TaskLogic {
         return parseredText.getSentences().stream()
                 .sorted(Comparator.comparingInt(String::length).reversed())
                 .collect(Collectors.toList());
-
     }
 }
