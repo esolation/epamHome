@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="888af631-5a3b-4f89-b781-c2ff502e8c1a" name="Default Changelist" comment="" />
+    <list default="true" id="888af631-5a3b-4f89-b781-c2ff502e8c1a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/homeTask1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/homeTask2/Logic/TaskLogicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/homeTask2/Logic/TaskLogicService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/homeTask2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/homeTask2/ParseredText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/homeTask2/ParseredText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSecondTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSecondTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/homeTask2/Logic/TaskLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/homeTask2/Logic/TaskLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/homeTask2/Logic/TaskLogicService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/homeTask2/Logic/TaskLogicService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/homeTask2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/homeTask2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/homeTask2/Parser/ParserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/homeTask2/Parser/ParserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/homeTask2/ParseredText.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/homeTask2/ParseredText.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestApplication.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +35,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Vlad &lt;positivesmile95@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -29,10 +51,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1YKf7esqQdGQzVbxV9yCGFtRamd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -56,7 +79,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.TestSecondTask.testRecoverText">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.epam.homeTask2.Parser.Main" />
       <module name="HomeTask1" />
@@ -83,15 +106,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestApplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HomeTask1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestApplication" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestApplication.testSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HomeTask1" />
       <option name="PACKAGE_NAME" value="" />
@@ -102,11 +116,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestApplication.testSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSecondTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HomeTask1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestApplication" />
-      <option name="METHOD_NAME" value="testSum" />
+      <option name="MAIN_CLASS_NAME" value="TestSecondTask" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSecondTask.testRecoverText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeTask1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSecondTask" />
+      <option name="METHOD_NAME" value="testRecoverText" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestSecondTask.testRecoverText" />
+        <item itemvalue="JUnit.TestSecondTask" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="JUnit.TestApplication.testSort" />
-        <item itemvalue="JUnit.TestApplication" />
-        <item itemvalue="JUnit.TestApplication.testSum" />
       </list>
     </recent_temporary>
   </component>
@@ -134,22 +157,26 @@
       <updated>1582696042677</updated>
       <workItem from="1582696055253" duration="4254000" />
       <workItem from="1582786498775" duration="17900000" />
-      <workItem from="1583130621265" duration="43274000" />
+      <workItem from="1583130621265" duration="43610000" />
+      <workItem from="1583994136365" duration="186000" />
+      <workItem from="1583994434287" duration="5773000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/epam/homeTask2/Logic/TaskLogicService.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
