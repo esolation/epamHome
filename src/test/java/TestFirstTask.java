@@ -1,10 +1,10 @@
-import com.epam.homeTask1.Biker.Biker;
-import com.epam.homeTask1.Equipment.Elements.Chest;
-import com.epam.homeTask1.Equipment.Equipment;
-import com.epam.homeTask1.Equipment.Elements.Feet;
-import com.epam.homeTask1.Equipment.Elements.Helmet;
-import com.epam.homeTask1.Methods.Methods;
-import com.epam.homeTask1.Methods.MethodsImpl;
+import com.epam.homeTask1.biker.Biker;
+import com.epam.homeTask1.equipment.elements.Chest;
+import com.epam.homeTask1.equipment.Equipment;
+import com.epam.homeTask1.equipment.elements.Feet;
+import com.epam.homeTask1.equipment.elements.Helmet;
+import com.epam.homeTask1.methods.Methods;
+import com.epam.homeTask1.methods.MethodsImpl;
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
 import org.junit.*;

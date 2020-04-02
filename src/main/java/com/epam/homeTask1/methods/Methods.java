@@ -1,9 +1,8 @@
-package com.epam.homeTask1.Methods;
+package com.epam.homeTask1.methods;
 
-import com.epam.homeTask1.Equipment.Equipment;
+import com.epam.homeTask1.equipment.Equipment;
 
 import java.util.List;
-import java.util.Set;
 
 public interface Methods {
      List<Equipment> sort(List<Equipment> e);

@@ -41,9 +41,9 @@ public class ParseredText {
        }
    }
 
-   public StringBuilder recoverAllText() {
+   public String recoverAllText() {
        StringBuilder text = new StringBuilder();
        sentences.forEach(x-> text.append(x).append(". "));
-       return text;
+       return new String(text);
    }
 }

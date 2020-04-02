@@ -6,11 +6,17 @@ import java.util.stream.Stream;
 
 public class ParserService implements Parser {
     @Override
+    public List<String> getAllParagraphsFromText(String text) {
+        return List.of(text.split("[\n\t]\\s*"));
+    }
+
+    @Override
     public List<String> getAllSentencesFromText(String text) {
-        return List.of(text.split("[.!?]\\s*"));
+
+        return List.of(text.split("[.!?]\\s"));
     }
     @Override
     public List<String> getAllWordsFromSentences(String sentence) {
-        return Arrays.asList(sentence.split("[ \t\n,]\\s*"));
+        return Arrays.asList(sentence.split("[ ,]\\s*"));
     }
 }

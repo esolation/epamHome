@@ -1,4 +1,4 @@
-package com.epam.homeTask1.Equipment;
+package com.epam.homeTask1.equipment;
 
 import java.util.Objects;
 
