@@ -8,16 +8,16 @@ import java.util.List;
 
 public class Words {
     private Parser parser = new ParserService();
-    private List<String> word = new ArrayList<>();
+   private String word;
     public Words(String text){
-        word.addAll(parser.getAllWordsFromSentences(text));
+      this.word = text;
     }
 
-    public List<String> getWord() {
+    public String getWord() {
         return word;
     }
 
-    public void setWord(List<String> word) {
+    public void setWord(String word) {
         this.word = word;
     }
 }

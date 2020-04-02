@@ -12,27 +12,34 @@ public class Paragraphs {
     private ParserService parserService = new ParserService();
     private List<Sentence> sentences = new ArrayList<>();
 
-    public  Sentence sentence;
-
     public Paragraphs(String text) {
-
+        this.paragraph = text;
+        setSentence();
     }
-
     private void setSentence(){
-        sentences = parserService.getAllSentencesFromText(paragraph);
+       for(String sentence: parserService.getAllSentencesFromText(paragraph)){
+           sentences.add(new Sentence(sentence));
+       }
     }
 
-    public List<String> getParagraph() {
+    public String getParagraph() {
         return paragraph;
     }
 
-    public void setParagraph(List<String> paragraph) {
+    public void setParagraph(String paragraph) {
         this.paragraph = paragraph;
     }
 
-    public Sentence getSentence() {
-        return sentence;
+    public List<Sentence> getSentences() {
+        return sentences;
     }
 
+    public void setSentences(List<Sentence> sentences) {
+        this.sentences = sentences;
+    }
 
+    @Override
+    public String toString() {
+        return paragraph;
+    }
 }

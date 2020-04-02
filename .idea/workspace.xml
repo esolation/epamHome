@@ -2,39 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="888af631-5a3b-4f89-b781-c2ff502e8c1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/homeTask2/parseredText/Text.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/homeTask2/parseredText/elements/Paragraphs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/homeTask2/parseredText/elements/Printable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/homeTask2/parseredText/elements/Sentence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/homeTask2/parseredText/elements/Words.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/homeTask1/Biker/Biker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/homeTask1/biker/Biker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/homeTask1/Equipment/Elements/Chest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/homeTask1/equipment/elements/Chest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/homeTask1/Equipment/Elements/Feet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/homeTask1/equipment/elements/Feet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/homeTask1/Equipment/Elements/Helmet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/homeTask1/equipment/elements/Helmet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/homeTask1/Equipment/Equipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/homeTask1/equipment/Equipment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/homeTask1/Methods/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/homeTask1/methods/Methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/homeTask1/Methods/MethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/homeTask1/methods/MethodsImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/homeTask2/Parser/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/homeTask2/Parser/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/homeTask2/Parser/ParserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/homeTask2/Parser/ParserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestFirstTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestFirstTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/HomeTask1.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/homeTask1/Biker/Biker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/homeTask1/Biker/Biker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/homeTask1/Equipment/Elements/Chest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/homeTask1/Equipment/Elements/Chest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/homeTask1/Equipment/Elements/Feet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/homeTask1/Equipment/Elements/Feet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/homeTask1/Equipment/Elements/Helmet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/homeTask1/Equipment/Elements/Helmet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/homeTask1/Equipment/Equipment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/homeTask1/Equipment/Equipment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/homeTask1/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/homeTask1/Methods/Methods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/homeTask1/Methods/Methods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/homeTask1/Methods/MethodsImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/homeTask1/Methods/MethodsImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/homeTask2/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/homeTask2/Parser/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/homeTask2/Parser/Parser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/homeTask2/Parser/ParserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/homeTask2/Parser/ParserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/HomeTask1.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestFirstTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestFirstTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/homeTask2/parseredText/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/homeTask2/parseredText/Text.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/homeTask2/parseredText/elements/Paragraphs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/homeTask2/parseredText/elements/Paragraphs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/homeTask2/parseredText/elements/Sentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/homeTask2/parseredText/elements/Sentence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/homeTask2/parseredText/elements/Words.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/homeTask2/parseredText/elements/Words.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/homeTask2/parseredText/Text.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/homeTask2/parseredText/Text.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/homeTask2/parseredText/elements/Paragraphs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/homeTask2/parseredText/elements/Paragraphs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/homeTask2/parseredText/elements/Sentence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/homeTask2/parseredText/elements/Sentence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/homeTask2/parseredText/elements/Words.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/homeTask2/parseredText/elements/Words.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +157,7 @@
       <workItem from="1585557324955" duration="7730000" />
       <workItem from="1585651451483" duration="296000" />
       <workItem from="1585688809146" duration="4449000" />
-      <workItem from="1585806805848" duration="2636000" />
+      <workItem from="1585806805848" duration="4551000" />
     </task>
     <task id="LOCAL-00001" summary="second task">
       <created>1584001592217</created>
@@ -214,46 +190,46 @@
     <option name="LAST_COMMIT_MESSAGE" value="second task" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1585690742412">
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1585811724141">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1585690742412" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1585811724141" />
     <state x="462" y="119" key="FileChooserDialogImpl" timestamp="1585691895954">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585691895954" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1585566688990">
+    <state width="661" height="223" key="GridCell.Tab.0.bottom" timestamp="1585811862418">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585566688990" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1585566688990">
+    <state width="661" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585811862418" />
+    <state width="661" height="223" key="GridCell.Tab.0.center" timestamp="1585811862417">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585566688990" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1585566688990">
+    <state width="661" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585811862417" />
+    <state width="661" height="223" key="GridCell.Tab.0.left" timestamp="1585811862417">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585566688990" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1585566688990">
+    <state width="661" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585811862417" />
+    <state width="661" height="223" key="GridCell.Tab.0.right" timestamp="1585811862418">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585566688990" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1585561774108">
+    <state width="661" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585811862418" />
+    <state width="661" height="223" key="GridCell.Tab.1.bottom" timestamp="1585811863105">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585561774108" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1585561774108">
+    <state width="661" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585811863105" />
+    <state width="661" height="223" key="GridCell.Tab.1.center" timestamp="1585811863105">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585561774108" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1585561774108">
+    <state width="661" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585811863105" />
+    <state width="661" height="223" key="GridCell.Tab.1.left" timestamp="1585811863105">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585561774108" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1585561774108">
+    <state width="661" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585811863105" />
+    <state width="661" height="223" key="GridCell.Tab.1.right" timestamp="1585811863105">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585561774108" />
+    <state width="661" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585811863105" />
     <state x="184" y="7" key="SettingsEditor" timestamp="1585207067925">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -270,5 +246,16 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1585809398159" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/epam/homeTask2/parseredText/Text.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

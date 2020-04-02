@@ -8,22 +8,31 @@ import java.util.List;
 
 public class Sentence {
     Parser parser = new ParserService();
-   private String sentence;
+    private String sentence;
     private List<Words> words;
 
-    Sentence(String text){
-        sentences.addAll(parser.getAllSentencesFromText(text));
+    public Sentence(String text){
+        this.sentence = text;
     }
 
-    private void setWords(){
-        sentences.forEach(x-> words = new Words(x));
+    public String getSentence() {
+        return sentence;
     }
 
-    public List<String> getSentences() {
-        return sentences;
+    public void setSentence(String sentence) {
+        this.sentence = sentence;
     }
 
-    public void setSentences(List<String> sentences) {
-        this.sentences = sentences;
+    public List<Words> getWords() {
+        return words;
+    }
+
+    public void setWords(List<Words> words) {
+        this.words = words;
+    }
+
+    @Override
+    public String toString() {
+        return sentence;
     }
 }
