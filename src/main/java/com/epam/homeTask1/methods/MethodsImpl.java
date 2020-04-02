@@ -1,6 +1,6 @@
-package com.epam.homeTask1.Methods;
+package com.epam.homeTask1.methods;
 
-import com.epam.homeTask1.Equipment.Equipment;
+import com.epam.homeTask1.equipment.Equipment;
 
 import java.util.Comparator;
 import java.util.List;

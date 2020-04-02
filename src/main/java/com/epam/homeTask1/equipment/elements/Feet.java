@@ -1,6 +1,6 @@
-package com.epam.homeTask1.Equipment.Elements;
+package com.epam.homeTask1.equipment.elements;
 
-import com.epam.homeTask1.Equipment.Equipment;
+import com.epam.homeTask1.equipment.Equipment;
 
 public class Feet extends Equipment {
     public Feet(String name, double cost, double weight){

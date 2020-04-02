@@ -6,6 +6,11 @@ import java.util.stream.Stream;
 
 public class ParserService implements Parser {
     @Override
+    public List<String> getAllParagraphsFromText(String text) {
+        return List.of(text.split("[\n\t]\\s*"));
+    }
+
+    @Override
     public List<String> getAllSentencesFromText(String text) {
         return List.of(text.split("[.!?]\\s*"));
     }
